@@ -78,6 +78,8 @@ cmake .. -G"Visual Studio 17 2022" -T v143 -A x64 -DCMAKE_PREFIX_PATH="<QT_INSTA
 
 > **Note**: Make sure to specify the correct Qt as `CMAKE_PREFIX_PATH` value.
 
+If you are having trouble with Qt path, Install Qt VS Tools from the "Extensions" tab in VS. Then, add an entry to C:\Qt\6.7.3\msvc2022_64\bin
+
 ### Build and debug TrenchBroom
 
 To build and debug TrenchBroom, press `F5` key. After a success compilation process, TrenchBroom should automatically be opened in `Debug` mode.
